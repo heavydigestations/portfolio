@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    padding: 4rem;
+}
+
+img {
+    padding: 1rem;
+}
+
+
+main, head, header, footer {
+    flex-grow: 1;
+    display: grid;
+    place-content: left;
+    grid-template-columns: 100%;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
+
+li:before {
+content: "★";
+}
